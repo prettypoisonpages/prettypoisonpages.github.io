@@ -1,0 +1,220 @@
+<!-- This is the main HTML file for the portfolio template -->
+<!-- It includes sections such as Home, About, Skills, Work, and Contact -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Importing FontAwesome for social icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<!-- Body-->
+<body>
+    <!-- Header Section: Contains navigation bar -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav-logo">Mr. Bean</a>
+            </div>
+            <!-- Navigation Menu -->
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#work" class="nav-link">Creative Work</a></li>
+                </ul>
+            </div>
+
+            <!-- Toggle button for mobile navigation -->
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+        </nav>
+    </header>
+    <!-- Home Section -->
+    <main class="l-main">
+        <section class="home bd-grid" id="home">
+            <div class="home-data">
+                <h1 class="home-title">Hi, <br>I'm <span class="home-title-color">Mr. Bean</span><br> <span class="home-subtitle">Professional Buffoon | Teddy Enthusiast | Accidental Genius</span></h1>
+                <a href="#" class="button">More About Me</a>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="home-social">
+                <a href="#" class="home-social-icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#" class="home-social-icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="home-social-icon"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about-container bd-grid">
+                <div class="about-img">
+                    <img src="images/About_Section.jpg" alt="image">
+                </div>
+
+                <div>
+                    <h2 class="about-subtitle">I'm Mr. Bean</h2>
+                    <p class="about-text">Hello! I’m Mr. Bean, the world’s most accomplished expert in turning simple tasks into elaborate misadventures. I have a unique approach to problem-solving (mostly involving chaos, duct tape, and sheer luck). Whether it's driving a car from the roof or winning a painting contest with a sneaky sneeze, I always get things done... eventually.<br> <br>I’m Mr. Bean, the world’s most accomplished expert in turning simple tasks into elaborate misadventures. I have a unique approach to problem-solving (mostly involving chaos, duct tape, and sheer luck). Whether it's driving a car from the roof or winning a painting contest with a sneaky sneeze, I always get things done... eventually. <br><br> Hello! I’m Mr. Bean, the world’s most accomplished expert in turning simple tasks into elaborate misadventures. I have a unique approach to problem-solving (mostly involving chaos, duct tape, and sheer luck). Whether it's driving a car from the roof or winning a painting contest with a sneaky sneeze, I always get things done... eventually.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-container bd-grid">
+                
+                <div>
+                    <img src="https://i.postimg.cc/52LWbPyt/work3.jpg" alt="image" class="skills-img">
+                </div>
+                <div>
+                    <h2 class="skills-subtitle">Professional Skills</h2>
+                    <p class="skills-text">If you're looking for someone who thinks outside the box—sometimes literally—then you’ve found your guy!</p>
+
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class='bx bxl-html5 skills-icon' ></i>
+                            <span class="skills-name">HTML5</span>
+                        </div>
+
+                        <div>
+                            <span class="skills-percentage">95%</span>
+                        </div>
+
+                        <div class="skills-bar skills-html"></div>
+                    </div>
+
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class='bx bxl-css3 skills-icon' ></i>
+                            <span class="skills-name">CSS3</span>
+                        </div>
+
+                        <div>
+                            <span class="skills-percentage">85%</span>
+                        </div>
+
+                        <div class="skills-bar skills-css"></div>
+                    </div>
+
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class='bx bxl-javascript skills-icon' ></i>
+                            <span class="skills-name">JAVASCRIPT</span>
+                        </div>
+
+                        <div>
+                            <span class="skills-percentage">65%</span>
+                        </div>
+
+                        <div class="skills-bar skills-js"></div>
+                    </div>
+
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class='bx bxs-paint skills-icon' ></i>
+                            <span class="skills-name">UX/UI</span>
+                        </div>
+
+                        <div>
+                            <span class="skills-percentage">85%</span>
+                        </div>
+
+                        <div class="skills-bar skills-ux"></div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+
+        <section class="blog section" id="blog">
+            <h2 class="section-title">Blog</h2>
+            <div class="blog-container">
+                <div class="blog-entry">
+                    <div class="blog-img">
+                        <img src="images/Blog1.gif" alt="Blog 1 Image">
+                    </div>
+                    <div class="blog-content">
+                        <h2 class="blog-subtitle">The Art of Problem-Solving: A Personal Approach</h2>
+                        <p class="blog-text">Simple tasks often have hidden complexities—like locking yourself out while trying to fix a lock. In this post, I reflect on my creative solutions to everyday challenges.</p>
+                    </div>
+                </div>
+        
+                <div class="blog-entry">
+                    <div class="blog-img">
+                        <img src="images/Blog2.avif" alt="Blog 2 Image">
+                    </div>
+                    <div class="blog-content">
+                        <h2 class="blog-subtitle">On the Importance of a Steady Companion</h2>
+                        <p class="blog-text">Success is rarely a solo effort. From decision-making to moral support, a reliable companion can make all the difference—especially when they never disagree with you.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="work section" id="work">
+            <h2 class="section-title">Creative Work</h2>
+
+            <div class="work-container bd-grid">
+                <div class="work-img">
+                    <img src="images/Creative1.avif" alt="image">
+                </div>
+
+                <div class="work-img">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qJZ1Ez28C-A?si=vT-ZCm_6qgKsa0jB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="work-img">
+                    <img src="images/Creative3.webp" alt="image">
+                </div>
+
+                <div class="work-img">
+                    <img src="images/Creative4.avif" alt="image">
+                </div>
+
+                <div class="work-img">
+                    <img src="images/Creative5.webp" alt="image">
+                </div>
+
+                <div class="work-img">
+                    <img src="images/Creative6.avif" alt="image">
+                </div>
+
+                
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <p class="footer-title">Mr. Bean</p>
+
+        <div class="footer-social">
+            <a href="#" class="footer-icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer-icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="#" class="footer-icon"><i class='bx bxl-twitter' ></i></a>
+        </div>
+
+        <p>&#169; 2025 Copyright all rights reserved</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
